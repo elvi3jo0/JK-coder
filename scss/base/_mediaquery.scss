@@ -1,0 +1,31 @@
+/*############### mediaquery ###############*/
+@media screen and (max-width:750px){
+    .villain{
+        p{
+            text-align: center;            
+        }
+    }
+}
+@media screen and (max-width:700px){
+    .superhero{
+        iframe{
+            height: 300px;
+            width: 400px;
+        }
+    }
+
+}
+@media screen and (max-width: 400px){
+    .superhero iframe{
+        height: 250px;
+        width: 300px;
+    }
+}
+
+/*----------registro---------*/
+@media screen and (max-width:884px){
+    .registro h2{
+        font-size: 25px;
+        margin: 25px;
+    }
+}
