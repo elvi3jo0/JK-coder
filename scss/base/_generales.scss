@@ -27,10 +27,6 @@ a{
     bottom: 20px;
 }
 
-.numero_de_telefono{
-    color: white;
-}
-
 .comingsoon {
     display: flex;
     align-items: center;
@@ -39,3 +35,25 @@ a{
     justify-content: center;
 }
 
+.sectionprueba{
+    .carteleras{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.mapa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+.agrandar{
+    transition: 0.5s;
+}
+.agrandar:hover{
+    transform: scale(1.20);
+}
