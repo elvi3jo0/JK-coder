@@ -144,6 +144,9 @@
 
 @media screen and (max-width:490px){
     .registro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         form{
             h2{
                 font-size: 20px;
@@ -158,9 +161,24 @@
 
 
 @media screen and (max-width:572px){
+        .horarios{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            div{
+                font-size: 15px;
+            }
+        }
         .mapa{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             h2{
                 font-size: 30px;
+            }
+            iframe{
+                width: 300px;
+                height: 150px;
             }
         }
 }

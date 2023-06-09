@@ -58,6 +58,7 @@ a {
   flex-direction: row;
   align-items: center; }
 
+/*-------------  BOOTSTRAP  ---------------------*/
 .hero {
   list-style: none;
   color: white;
@@ -77,6 +78,10 @@ a {
     display: inline-block;
     list-style: none;
     margin: 10px; }
+
+.container-fluid .navbar-brand img {
+  height: 32px;
+  width: 32px; }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -129,9 +134,9 @@ body {
     border: 1px black solid;
     text-align: center;
     border-radius: 10px;
-    background-color: bisque; }
+    background-color: rgba(11, 1, 20, 0.185); }
     .carteleras div a {
-      color: black; }
+      color: white; }
     .carteleras div img {
       width: 150px;
       height: 150px; }
@@ -315,14 +320,31 @@ body {
     margin: 25px; } }
 
 @media screen and (max-width: 490px) {
-  .registro form h2 {
-    font-size: 20px;
-    margin: 20px; } }
+  .registro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .registro form h2 {
+      font-size: 20px;
+      margin: 20px; } }
 
 /*-----------------------------*/
 @media screen and (max-width: 572px) {
-  .mapa h2 {
-    font-size: 30px; } }
+  .horarios {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .horarios div {
+      font-size: 15px; }
+  .mapa {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .mapa h2 {
+      font-size: 30px; }
+    .mapa iframe {
+      width: 300px;
+      height: 150px; } }
 
 @media screen and (max-width: 510px) {
   .footer h3 {

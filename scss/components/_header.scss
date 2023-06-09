@@ -15,6 +15,7 @@
         color: $color-principal;
     }
     nav{
+        
         ul{
             li{
                 display: inline-block;
@@ -23,5 +24,13 @@
             }
         }
     }
+}
 
+.container-fluid{
+    .navbar-brand{
+        img{
+            height: 32px;
+            width: 32px;
+        }
+    }
 }
